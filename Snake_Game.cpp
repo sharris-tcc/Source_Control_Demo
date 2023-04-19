@@ -83,6 +83,7 @@ void SnakeGame::DisplayInstructions() {
 	cout << " ||                                                                       ||\n";
 	cout << " ===========================================================================\n";
 }
+// Display Credits
 void SnakeGame::DisplayCredits() {
 	cout << " ===========================================================================\n";
 	cout << " ||                                                                       ||\n";

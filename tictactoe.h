@@ -9,7 +9,8 @@
 # define CLEAN_SCREEN system("clear");
 # endif
 
-namespace TicTacToe { 
+namespace TicTacToe {
+	//Namespace Functions
     void help() noexcept;
     void board(const std::array<unsigned char, 10>&) noexcept;
     void movement(std::array<unsigned char, 10>&, const unsigned char&) noexcept;
