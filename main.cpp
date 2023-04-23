@@ -32,9 +32,23 @@ int main() {
 	switch(option)
 	{
         case 1:
+        //code that was added for TicTacToe Game
+        if(option ==1) {
+          TicTacToe_Game games;
+            games.playGame();
+            }else{
             break;
+            }
+
         case 2:
+          //code that was added for Snake Game
+            if(option ==2) {
+            SnakeGame lizard;
+              lizard.StartGame();
+            }else{
             break;
+            }
+       
         default:
             cout << "Thanks for Playing!!!" <<endl;
             break;
