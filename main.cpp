@@ -32,8 +32,12 @@ int main() {
 	switch(option)
 	{
         case 1:
+		TicTacToe_Game game;
+            	game.playGame();
             break;
         case 2:
+		SnakeGame snakeGame;
+            	snakeGame.StartGame();
             break;
         default:
             cout << "Thanks for Playing!!!" <<endl;
